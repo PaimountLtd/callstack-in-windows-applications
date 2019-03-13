@@ -88,7 +88,7 @@ install(TARGETS "${TARGET_StackWalker}"
     RUNTIME  DESTINATION ${CMAKE_INSTALL_BINDIR}
     )
 
-install(FILES "${CMAKE_SOURCE_DIR}/Main/StackWalker/StackWalker.h"
+install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/Main/StackWalker/StackWalker.h"
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 if (MSVC_VERSION GREATER_EQUAL 1900)
